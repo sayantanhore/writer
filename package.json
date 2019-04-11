@@ -1,0 +1,37 @@
+{
+  "name": "writer",
+  "version": "1.0.0",
+  "description": "Holds a browser based HTML5 writer.",
+  "main": "index.js",
+  "repository": "git@github.com:sayantanhore/writer.git",
+  "author": "Sayantan Hore <sayantan.hore.86@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "react-scripts": "^2.1.8",
+    "react-test-renderer": "^16.8.6"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
