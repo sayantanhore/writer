@@ -8,10 +8,13 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "react-scripts start",
+    "start": "HTTPS=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-prod": "./build.sh",
+    "serve-prod-start": "./run.sh",
+    "serve-prod-stop": "./stop_and_delete_container.sh"
   },
   "devDependencies": {
     "node-sass": "^4.11.0",
